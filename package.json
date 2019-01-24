@@ -1,22 +1,14 @@
 {
-  "name": "eat-da-burger",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "burgers",
+  "description": "Eat-Da-Burger!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liaswapna/Eat-Da-Burger.git"
-  },
   "author": "Swapna Lia Anil",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liaswapna/Eat-Da-Burger/issues"
-  },
-  "homepage": "https://github.com/liaswapna/Eat-Da-Burger#readme",
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
