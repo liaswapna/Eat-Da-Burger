@@ -1,0 +1,9 @@
+<tr>
+    <td>{{burger_name}}</td>
+    {{#if devour}}
+    <td><button id="devour" class="devour-btn btn-warning" data-id={{id}}>Devour</button></td>
+    <td><button class="delete-btn btn-warning" data-id={{id}}>Delete</button></td>
+    {{else}}
+    <td><button class="delete-btn btn-warning" data-id={{id}}>Delete</button></td>
+    {{/if}}
+</tr>
